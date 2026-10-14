@@ -1,0 +1,4 @@
+{"kind":"start","run_id":"demo","call_id":"logical-1","attempt_id":"a1","name":"read_file","arguments":{"path":"example.txt"},"time_ns":100}
+{"kind":"start","run_id":"demo","call_id":"logical-1","attempt_id":"a2","name":"read_file","arguments":{"path":"example.txt"},"time_ns":200}
+{"kind":"end","run_id":"demo","attempt_id":"a1","status":"ok","time_ns":300}
+{"kind":"end","run_id":"demo","attempt_id":"a2","status":"ok","time_ns":400}
