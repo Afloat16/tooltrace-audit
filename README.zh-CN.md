@@ -1,5 +1,7 @@
 # tooltrace-audit
 
+[English](README.md) · **简体中文**
+
 离线检查重复工具调用、重叠重试、孤立结果和未完成尝试。执行事件与对话协议严格区分；重复不等于确定死循环，也不替代幂等设计或修复上游调度。
 
 由 **Afloat16** 独立维护，MIT 许可。实验性工具，格式与限制详见 [English README](README.md) 和[需求证据](docs/EVIDENCE.md)。未声称修复上游运行时问题或获得上游认可。
@@ -24,3 +26,8 @@ python -m build
 ```
 
 CI 配置覆盖三种系统的 Python 3.10 / 3.13，实际状态以 Actions 为准。示例均为合成数据，不包含用户附件或私人数据。
+
+
+## 相关项目
+
+按问题选择工具，查看[Afloat16项目导航](https://github.com/Afloat16/research-to-fix/blob/main/docs/PROJECTS.zh-CN.md)。
